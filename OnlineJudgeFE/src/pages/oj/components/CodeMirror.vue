@@ -165,6 +165,7 @@
 </script>
 
 <style lang="less" scoped>
+
   .header {
     margin: 5px 5px 15px 5px;
     .adjust {
@@ -175,9 +176,12 @@
       float: right;
     }
   }
+  
+
 </style>
 
 <style>
+
   .CodeMirror {
     height: auto !important;
   }
@@ -185,4 +189,13 @@
     min-height: 300px;
     max-height: 1000px;
   }
+  @font-face{
+    font-family:Cascadia;
+    src:url(../../../assets/CascadiaCode-Regular.eot);
+    src:url(../../../assets/CascadiaCode-Regular.woff) format('woff'), url(../../../assets/CascadiaCode-Regular.ttf) format('truetype');
+  }
+  .CodeMirror pre{
+    font-family:Cascadia, Consolas, 'Courier New', monospace !important;
+  }
+ 
 </style>
